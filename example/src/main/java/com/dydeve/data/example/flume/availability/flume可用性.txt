@@ -1,0 +1,8 @@
+1.编写flume启动脚本start_testflume.sh
+
+2.编写shell脚本monitorflume.sh检测flume进程是否运行
+
+3.通过crontab定时执行monitorflume.sh
+[root@master bin]# crontab -e -u hadoop
+#定时每分钟执行monitorflume.sh
+* * * * * /bin/sh /home/hadoop/shell/bin/monitorflume.sh &
