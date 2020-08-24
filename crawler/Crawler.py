@@ -14,8 +14,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options as FireFoxOptions
 
 # 店铺子账号
-TB_USERNAME = '喜马拉雅万物声旗舰店'
-TB_PASSWORD = 'xmly9876054321'
+TB_USERNAME = ''
+TB_PASSWORD = ''
 
 # 淘宝登录地址
 TB_LOGIN_URL = 'https://login.taobao.com/member/login.jhtml'
